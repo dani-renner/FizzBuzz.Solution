@@ -8,7 +8,7 @@ public class FizzBuzzProcessor
     
 	public string[] FizzBuzzMethod (int bound)
     {
-        string[] answer = new string[bound-1];
+        string[] answer = new string[bound + 1];
         for (int i = 1; i <= bound; i++)
         {
             if (i % 3 == 0 && i % 5 == 0)
