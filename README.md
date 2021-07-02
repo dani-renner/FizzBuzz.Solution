@@ -9,6 +9,12 @@ by Dani Renner
 
 • Enter the command 
 ``` bash
+dotnet build
+```
+  in your terminal
+
+• Enter the command 
+``` bash
 dotnet run
 ```
   in your terminal
