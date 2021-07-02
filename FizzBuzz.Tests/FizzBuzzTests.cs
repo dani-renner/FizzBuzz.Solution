@@ -10,6 +10,9 @@ namespace FizzBuzzTests
         [TestMethod]
         public void FizzBuzzMethod_MultiplesOfFifteen_FizzBuzz()
         {
+          var FizzBuzzProcessor = new FizzBuzzProcessor();
+          var ExampleResult = FizzBuzzProcessor.FizzBuzzMethod(15);
+          Assert.AreEqual("fizzbuzz", ExampleResult[15]);
         }
     }
 }
